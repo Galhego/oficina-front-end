@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.banner {
+    background-image: url(../IMG/eu.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner p, h1 {
+color: white;
+margin: 0;
+}
+
+.banner button {
+    background-color: white;
+    color: #7e4598;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.descricao, .habilidades {
+    display: inline-block;
+    width: 40%;
+}
+
+.habilidades {
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.habilidades h3 {
+    margin-top: 0;
+}
+
+.sobre {
+    margin: 30px;
+}
+
+.sobre h2 {
+    margin-bottom: 0;
+}
+
+.sobre button {
+    background-color: white;
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.redes div {
+    height: 75px;
+    width: 90px;
+    background-repeat: no-repeat;
+    background-color: green;
+    width: 15%;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display:flex;
+    border-radius: 5px;
+    color: white;
+}
+
+.github h4 {
+    margin: 0;
+}
+
+
+
+@media (max-width: 480px) {
+    .descricao {
+        width: 100%;
+    }
+    .habilidades {
+    width: 100%;
+    margin-left: 0;
+    }
+    .github h4 {
+        font-size: 13px;
+    }
+
+
+
+
+    }
+
